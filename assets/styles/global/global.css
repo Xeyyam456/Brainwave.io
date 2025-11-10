@@ -1,0 +1,168 @@
+
+/* =========================================================== */
+                           /* HEADER */
+/* =========================================================== */
+
+body{
+    color: var(--primary-color);
+    font-family: var(--roboto);
+    max-width: 1601px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: var(--back-color-hero);
+    padding: 30px 194px 30px 251px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header.fluid{
+    padding: 25px 44px 25px 85px;
+}
+
+
+
+
+.header.block{
+    
+    align-items: center;
+    justify-content: center;
+    
+    .navbar{
+        display: none;
+    }
+}
+
+.logo-text{
+    flex-basis: 20%;
+    font-size: 28px;
+    font-family: var(--rubik);
+    font-weight: var(--rubik-Bold-700);
+    line-height: 100%;
+    letter-spacing: -0.16px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 60%;
+
+
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 15px;
+    font-weight: var(--roboto-Bold-700);
+    line-height: 26px;
+}
+
+
+.nav-link:hover{
+    color: var(--active-link-color);
+}
+
+.nav-link.active, .btn.active{
+    color: var(--active-link-color);
+}
+
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.btn{
+    
+    font-weight: var(--roboto-Bold-700);
+    font-size: 15px;
+    line-height: 26px;
+    
+}
+
+
+
+.backcolor{
+    background-color: var(--secondary-color);
+}
+
+.backcolor-form-info{
+    background-color: var(--secondary-color);
+}
+
+.active{
+    color: var(--active-link-color);
+}
+
+/* =========================================================== */
+                       /* HEADER END */
+/* =========================================================== */
+
+/* =========================================================== */
+                        /* FOOTER */
+/* =========================================================== */
+
+
+.footer{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1601px;
+    padding: 122px 245px 128px 245px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-weight: var(--roboto-Regular-400);
+    gap: 50px;
+    
+}
+
+.footer-logo-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.icon-items{
+    display: flex;
+    gap: 24px;
+}
+
+
+
+.desc{
+    width: 85%;
+}
+
+.footer-title{
+    font-size: 15px;
+    line-height: 26px;
+    opacity: 65%;
+}
+
+
+.company, .product, .services, .legal {
+    width: 25%;
+    font-size: 17px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* =========================================================== */
+                     /* FOOTER END */
+/* =========================================================== */
+
+
+
