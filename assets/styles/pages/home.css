@@ -1,0 +1,65 @@
+/* ================================================================================================= --> */
+/*                                         MAIN
+/* ================================================================================================= --> */
+
+.hero-section{
+    padding: 0 150px;
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    justify-content: space-between ;
+    background-color: var(--back-color-hero);
+    background-image: url(../../images/wave\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 21px;
+}
+
+.hero-title{
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    font-weight: var(--roboto-Bold-700);
+    padding: 0 200px;
+}
+
+
+.text{
+    font-size: 19px;
+    line-height: 32px;
+    opacity: 70%;
+}
+
+.hero-desc{
+    width: 50%;
+    margin-left: 200px;
+    margin-bottom: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================================= --> */
+/*                                        MAIN END 
+/* ================================================================================================= --> */
