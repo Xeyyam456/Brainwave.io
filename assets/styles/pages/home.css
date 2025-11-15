@@ -410,6 +410,7 @@
 
 .help-content{
     display: flex;
+    background-color: var(--color-light);
     
 }
 
