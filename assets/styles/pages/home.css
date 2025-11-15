@@ -337,8 +337,11 @@
     margin-bottom: 141px;
     border-radius: 10px;
     /* background-color: red; */
-    border: 1px solid var(--border-color)
+    border: 1px solid var(--border-color);
+    background-color: var(--secondary-color);
 }
+
+
 
 .card-content:nth-child(odd) .text-case{
     color: var(--color-green);
@@ -403,8 +406,24 @@
 }
 
 
+/* ================================================================================================= */
+
+.help-content{
+    display: flex;
+    
+}
 
 
+.top-content{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: 37%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 
 
 
