@@ -1,0 +1,477 @@
+/* ================================================================================================= */
+/*                                         MAIN
+/* ================================================================================================= */
+
+.hero-section{
+    padding: 0 150px;
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    justify-content: space-between ;
+    background-color: var(--back-color-hero);
+    background-image: url(../../images/wave\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 21px;
+}
+
+.hero-title{
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    font-weight: var(--roboto-Bold-700);
+    padding: 0 200px;
+}
+
+
+.text{
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+}
+
+.title{
+    font-weight: var(--roboto-Bold-700);
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+}
+
+.hero-desc{
+    width: 50%;
+    margin-left: 200px;
+    margin-bottom: 90px;
+}
+
+
+
+
+
+
+
+
+/* ================================================================================================= */
+
+.big-companies-content{
+    margin-top: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+    padding-bottom: 125px;
+}
+
+.companies-information{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 450px;
+}
+
+
+.companies-logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 50%;
+}
+
+
+.companies-logo-img{
+    height: 35px;
+}
+
+
+/* ================================================================================================= */
+
+
+.jobs-category{
+    padding: 132px 200px 144px 251px;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.jobs-information{
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary-color);
+    width: 37%;
+    gap: 20px;
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+
+}
+
+.card{
+    transition: all 0.2s ease-in-out;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    justify-content: center;
+    text-indent: 32px;
+    width: 350px;
+    height: 117px;
+    border-radius: 10px;
+    
+}
+
+.hover:hover{
+    background-color: var(--color-blue);
+    color: var(--secondary-color);
+    transform: translateY(-9px);
+}
+
+
+.card-title{
+    /* background-color: green; */
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+
+.card-desc{
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 70%;
+}
+
+
+/* ======================================================================================== */
+
+.find-jobs-content{
+    padding-top: 113px;
+    border-bottom: 2px solid var(--color-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+    padding-bottom: 115px;
+    
+}
+
+.find-jobs-top-content{
+    width: 37%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+
+
+.find-jobs-bottom-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 69px;
+    padding-left: 130px;
+}
+
+.find-jobs-image{
+    position: relative;
+}
+
+.find-jobs-card-alert{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 17px;
+    gap: 15px;
+    width: 65%;
+    position: absolute;
+    left: -35px;
+    bottom: 165px;
+}
+
+.background{
+    position: absolute;
+    left: 105px;
+    top: 85px;
+    z-index: -1;
+}
+
+.font-size{
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: var(--roboto-Bold-700);
+}
+
+.alert-title{
+    letter-spacing: 0.1px;
+}
+
+.alert{
+    background-color: var(--color-green);
+    border-radius: 100%;
+}
+
+
+.jobs-icon{
+    padding: 12px;
+}
+
+
+
+
+
+.find-jobs-info{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.numbers{
+    background-color: var(--color-blue);
+    padding: 8px 18px 6px 18px;     
+    border-radius: 100%;
+    width: 43px;
+    height: 43px;
+    color: var(--secondary-color);
+}
+
+.jobs-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.jobs-descript{
+    font-weight: var(--roboto-Regular-400);
+}
+
+
+.card-jobs-info{
+    display: flex;
+    gap: 22px;
+    width: 70%;
+}
+
+
+
+/* ======================================================================================== */
+
+
+.featured-jobs{
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+    background-image: url(../../images/wave\ 1.png);
+    padding-top: 107px;
+}
+
+
+.featured-top-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 245px;
+}
+
+.feature-jobs-content{
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    gap: 17px;
+}
+
+.left-and-right-icon{
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: var(--color-light);
+    padding: 15px;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+
+.featured-bottom-content{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 29px 40px 34px 32px ;
+    width: 255px;
+    height: 279px;
+    margin-bottom: 141px;
+    border-radius: 10px;
+    /* background-color: red; */
+    border: 1px solid var(--border-color);
+    background-color: var(--secondary-color);
+}
+
+
+
+.card-content:nth-child(odd) .text-case{
+    color: var(--color-green);
+    margin-bottom: 17px;
+}
+
+.card-content:nth-child(2) .text-case{
+    color: var(--color-blue);
+    margin-bottom: 17px;
+}
+.card-content:nth-child(4) .text-case{
+    color: var(--color-red);
+    margin-bottom: 17px;
+}
+
+.jobs-position-title{
+    margin-bottom: 5px;
+}
+
+
+.text-case{
+    text-transform: uppercase;
+    font-weight: var(--roboto-Bold-700);
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 1.63px;
+}
+
+
+
+.jobs-country{
+    margin-bottom: 57px;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 150%;
+}
+
+.little-size{
+    
+    opacity: 100%;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+
+
+
+.logo-text-symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    background-color: var(--color-blue-2);
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+}
+
+
+/* ================================================================================================= */
+
+.help-content{
+    display: flex;
+    background-color: var(--color-light);
+    gap: 74px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.top-content{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    
+    padding: 97px 530px 0px 530px;    /*figmadaki padding verilende  eyni gorunmur 546px verilib figmada*/
+    /* width: 37%; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+}
+
+
+
+.bottom-content{
+    display: flex;
+    gap: 31px;
+    padding: 0px 246px 140px 243px;
+
+}
+
+
+.card-section{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+
+    background-color: var(--secondary-color);
+}
+
+.card-images{
+    width: 350px;
+    height: 301px;
+}
+
+.card-content-title{
+    margin: 22px 32px 10px;
+}
+
+.card-content-desc{
+    margin: 0px 31px 27px 32px;
+    font-weight: var(--roboto-Bold-700);
+}
+
+
+
+
+
+
+/* ================================================================================================= */
+/*                                        MAIN END 
+/* ================================================================================================= */
