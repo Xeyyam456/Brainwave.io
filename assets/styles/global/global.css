@@ -42,7 +42,6 @@ body{
     font-weight: var(--rubik-Bold-700);
     line-height: 100%;
     letter-spacing: -0.16px;
-    margin-left: -30px;
 }
 
 .navbar{
