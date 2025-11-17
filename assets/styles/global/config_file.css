@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* ROOT */
+:root{
+    /* COLORS */
+/* ============================================== */
+    --primary-color: #161c2d;
+    --secondary-color: #ffffff;
+    --color-blue: #473bf0;
+    --color-green: #68d585;
+    --color-red: #f64b4b;
+    --color-black: #000000;
+    --color-light: #f4f7fa;
+    --active-link-color: #fb6d45;
+    --back-color-hero: #F0FBF3;
+    --border-color: #e7e9ed52;
+    --color-blue-2: #34B3F2;
+
+
+/* ============================================== */
+
+
+    /* FONTS */
+
+/* ============================================== */
+
+    /* ROBOTO */
+    --roboto: "Roboto", sans-serif;
+    --roboto-Regular-400:  400;
+    --roboto-Medium-500: 500;
+    --roboto-SemiBold-600: 600;
+    --roboto-Bold-700: 700;
+    --roboto-ExtraBold-800: 800;
+
+/* ============================================== */
+
+    /* RUBIK */
+    --rubik: "Rubik", sans-serif;
+    --rubik-Bold-700: 700;
+
+/* ============================================== */
+
+}
