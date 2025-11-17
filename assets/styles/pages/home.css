@@ -381,8 +381,15 @@
     gap: 10px;
     align-items: center;
     justify-content: flex-start;
-    width: 150%;
 }
+
+.card-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
 
 .little-size{
     
@@ -424,7 +431,7 @@
     flex-direction: column;
     gap: 17px;
     
-    padding: 97px 530px 0px 530px;    /*figmadaki padding verilende  eyni gorunmur 546px verilib figmada*/
+    padding: 97px 530px 0px 530px;    /*figmadaki padding verilende  eyni gorunmur 546px verilib figmada 530 ile uygundu*/
     /* width: 37%; */
     text-align: center;
     justify-content: center;
