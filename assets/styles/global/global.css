@@ -19,7 +19,7 @@ body{
 }
 
 .header.fluid{
-    padding: 25px 44px 25px 85px;
+    padding: 30px 44px 30px 85px;
 }
 
 
@@ -65,7 +65,7 @@ body{
 }
 
 
-.nav-link:hover{
+.nav-link:hover, .btn:hover{
     color: var(--active-link-color);
 }
 
